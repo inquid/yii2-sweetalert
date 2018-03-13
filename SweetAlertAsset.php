@@ -9,13 +9,13 @@ use yii\web\AssetBundle;
  */
 class SweetAlertAsset extends AssetBundle
 {
-    public $sourcePath = '@bower/sweetalert/dist';
+    public $sourcePath = '@bower/sweetalert2/dist';
 
     public $css = [
-        'sweetalert.css',
+        'sweetalert2.css',
     ];
 
     public $js = [
-        'sweetalert.min.js'
+        'sweetalert2.min.js'
     ];
 }
